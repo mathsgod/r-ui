@@ -1,14 +1,16 @@
 {
-  "name": "r",
+  "name": "r-ui",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "serve": "vue-cli-service serve --target lib src/main.js --port 8087",
+    "build": "vue-cli-service build --target lib index.js ",
+    "watch": "vue-cli-service build --watch --target lib r src/main.js",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "core-js": "^3.6.5",
+    "core-js": "^3.8.1",
+    "element-ui": "^2.14.0",
     "vue": "^2.6.11"
   },
   "devDependencies": {
