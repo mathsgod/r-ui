@@ -1,6 +1,6 @@
 {
   "name": "@mathsgod/r-ui",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "scripts": {
     "serve": "vue-cli-service serve --target lib src/main.js --port 8087",
     "build": "vue-cli-service build --target lib index.js ",
