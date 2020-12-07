@@ -3,6 +3,8 @@
     v-bind="$attrs"
     v-on="$listeners"
     :picker-options="pickerOptions"
+    value-format="yyyy-MM-dd"
+    format="yyyy-MM-dd"
   ></el-date-picker>
 </template>
 <script>

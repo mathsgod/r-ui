@@ -28,20 +28,21 @@
           <el-input name="input1" v-model="scope.form.input1"></el-input>
         </el-form-item>
 
+
+
         <el-form-item label="select1" prop="select1" required>
-          <el-select v-model="scope.form.select1">
+          <r-select v-model="scope.form.select1" name="select1">
             <el-option :value="1" label="test1"></el-option>
             <el-option :value="2" label="test2"></el-option>
-          </el-select>
-          <input type="hidden" name="select1" v-model="scope.form.select1" />
+          </r-select>
         </el-form-item>
 
         <el-form-item label="date1" prop="date1">
-          <el-date-picker
+          <r-date
             name="date1"
             v-model="scope.form.date1"
             value-format="yyyy-MM-dd"
-          ></el-date-picker>
+          ></r-date>
         </el-form-item>
       </template>
     </r-form>
